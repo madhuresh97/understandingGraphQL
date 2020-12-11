@@ -2,6 +2,7 @@
   "name": "understandingGraphQL",
   "version": "1.0.0",
   "description": "a standard babel setup",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./index.js --exec babel-node -e js"
@@ -18,6 +19,10 @@
     "babel-preset-stage-0": "^6.24.1"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0",
+    "nanoid": "^3.1.20",
     "nodemon": "^2.0.6"
   }
 }
